@@ -1,0 +1,34 @@
+@mixin reset-list-ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+@mixin a_style_reset {
+    text-decoration: none;
+}
+
+@mixin transition {
+    transition: 0.3s;
+}
+
+@mixin btn_logo_style {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+
+    top: $space_padding - 5;
+    left: $space_padding - 5;
+    
+}
+
+@mixin display_flex_just_start {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+@mixin display_flex_just_end {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+

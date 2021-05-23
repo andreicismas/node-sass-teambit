@@ -1,0 +1,57 @@
+header{
+    nav{
+       @include display_flex_just_start;
+
+       .comtainer_logo{
+           padding: $space_padding 0px;
+           width: 80px;
+           width: 100;
+           .logo{
+               width: 100%;
+
+           }
+       }
+       .empty_div{
+           flex-grow: 1
+       }
+       .container_nav_links{
+           ul{
+            @include reset-list-ul;
+            @include display_flex_just_start;
+            li{
+               
+                :hover{
+                    @include transition;
+                    color: rgb(247, 6, 6);
+                   
+                }
+                a{
+                    @include a_style_reset;
+                    padding: $space_padding;
+                    color: $text_color;
+                    
+                }
+            }
+           }
+       }
+
+        :hover{
+           @include transition;
+            background-color: rgb(206, 194, 171);
+              
+        }
+        .container_logo{
+            @include btn_logo_style
+         
+        }
+
+         button{
+            padding:    ($space_padding - 7px)  ($space_padding - 5)($space_padding - 5) $space_padding*3;
+
+            a{
+              @include a_style_reset;
+            }
+        }
+       
+    }
+}
