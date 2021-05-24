@@ -5,6 +5,8 @@
 }
 @mixin a_style_reset {
     text-decoration: none;
+    color: $electric_violet;
+    
 }
 
 @mixin transition {
@@ -33,7 +35,7 @@
 }
 @mixin display_flex_just_end {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
 }
 @mixin size_img {

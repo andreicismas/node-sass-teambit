@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Noto Sans JP", sans-serif;
-  color: #58402C;
+  color: #AC5440;
 }
 
 .max_comtainer {
@@ -30,7 +30,7 @@ header nav {
   display: flex;
   justify-content: start;
   align-items: center;
-  border-bottom: solid 1px #58402C;
+  border-bottom: solid 1px #AC5440;
 }
 header nav .comtainer_logo {
   padding: 10px 0px;
@@ -57,8 +57,8 @@ header nav .container_nav_links ul li :hover {
 }
 header nav .container_nav_links ul li a {
   text-decoration: none;
+  color: #4B4A5A;
   padding: 10px;
-  color: #58402C;
 }
 header nav .container_logo {
   width: 20px;
@@ -77,6 +77,7 @@ nav .btn_common button {
 }
 nav .btn_common button a {
   text-decoration: none;
+  color: #4B4A5A;
 }
 
 .section_1 {
@@ -117,7 +118,7 @@ nav .btn_common button a {
   transition: 0.3s;
 }
 .btn_style button {
-  background-color: #3E14E9;
+  background-color: #D7A43D;
   color: white;
 }
 
@@ -157,7 +158,7 @@ nav .btn_common button a {
   max-width: 920px;
   margin: auto;
   margin-top: -1px;
-  border-bottom: 1px solid #58402C;
+  border-bottom: 1px solid #AC5440;
 }
 
 .third_section div p {
@@ -182,9 +183,46 @@ nav .btn_common button a {
   padding: 20px 0px;
 }
 .fourth_section .style_general_img_2 p {
+  padding: 10px 0;
   font-size: 15px;
 }
+.fourth_section .style_general_img_2 div a {
+  text-decoration: none;
+  color: #4B4A5A;
+}
 .fourth_section .style_general_img_2 img {
+  width: 220px;
+  height: 220px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.fife_section {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.fife_section .style_general_img img {
+  width: 500px;
+  height: 350px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.fife_section .style_general_img_2 {
+  width: 350px;
+}
+.fife_section .style_general_img_2 h4 {
+  padding: 20px 0px;
+}
+.fife_section .style_general_img_2 p {
+  padding: 10px 0;
+  font-size: 15px;
+}
+.fife_section .style_general_img_2 div a {
+  text-decoration: none;
+  color: #4B4A5A;
+}
+.fife_section .style_general_img_2 img {
   width: 220px;
   height: 220px;
   -o-object-fit: contain;
