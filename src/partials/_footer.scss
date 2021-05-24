@@ -1,0 +1,42 @@
+footer{
+    max-width: 920px;
+    margin: auto;
+    padding:$space_padding*2 ;
+    div{
+        @include display_flex_just_center;
+        align-self: flex-start;
+        .container_logo_footer{
+            p{
+                span{
+                    @include a_style_reset;
+                }
+                font-size: $font_size - 12;
+                padding: $space_padding - 5;
+                color: $black_color
+                
+            }
+        }
+        ul{
+            
+                :hover{
+                    @include transition;
+                    color: rgb(247, 6, 6);
+                    cursor: pointer;
+                }
+            
+            @include reset-list-ul ;
+            align-self: flex-start;
+            padding:0   $space_padding*2 ;
+
+            li{
+                a{
+
+                    @include a_style_reset ;
+                    font-size: $font_size - 12;
+                  
+                }
+            }
+        }
+
+    }
+}

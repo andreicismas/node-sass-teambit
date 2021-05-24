@@ -149,3 +149,54 @@
         
     }
 }
+
+// last section 
+
+.six_section{
+    .co_founders{
+       @include display_flex_just_start;
+       img{
+           padding: $space_padding;
+       }
+    }
+    div{
+        h5{
+            text-align: initial;
+            color: $electric_violet;
+        }
+        span{
+            em{
+                color: $black_color;
+            }
+           
+        }
+    }
+}
+
+.six_section{
+    
+    .container_down_btn{
+        padding: $space_padding*3;
+       
+    }
+    div{
+        h2{
+            padding: $space_padding*4;
+            color: $black_color;
+        }
+    }
+    .paragraf_container{
+        max-width: 600px;
+        margin: auto;
+        background-color: white;
+        border: solid 1px $black_color;
+        border-radius: 10px;
+
+        p{
+            font-size: $font_size - 15px;
+            text-align: initial;
+            color: black;
+            padding: $space_padding;
+        }
+    }
+}

@@ -25,6 +25,7 @@ header{
                     :hover{
                         @include transition;
                         color: rgb(247, 6, 6);
+                        cursor: pointer;
 
                     
                     }
