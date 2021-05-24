@@ -1,6 +1,7 @@
 header{
     nav{
        @include display_flex_just_start;
+       border-bottom: solid 1px $text_color;
 
        .comtainer_logo{
            padding: $space_padding 0px;
@@ -18,40 +19,44 @@ header{
            ul{
             @include reset-list-ul;
             @include display_flex_just_start;
-            li{
-               
-                :hover{
-                    @include transition;
-                    color: rgb(247, 6, 6);
-                   
-                }
-                a{
-                    @include a_style_reset;
-                    padding: $space_padding;
-                    color: $text_color;
+            
+                li{
+                
+                    :hover{
+                        @include transition;
+                        color: rgb(247, 6, 6);
+
                     
+                    }
+                    a{
+                        @include a_style_reset;
+                        padding: $space_padding;
+                        color: $text_color;
+                        
+                    }
                 }
-            }
            }
        }
-
-        :hover{
-           @include transition;
-            background-color: rgb(206, 194, 171);
-              
-        }
         .container_logo{
             @include btn_logo_style
          
         }
+    }
+}
+nav{
+    .btn_common{
 
-         button{
+        
+        :hover{
+            @include transition;
+            background-color: rgb(206, 194, 171);
+        }
+        button{
             padding:    ($space_padding - 7px)  ($space_padding - 5)($space_padding - 5) $space_padding*3;
-
+            
             a{
-              @include a_style_reset;
+                @include a_style_reset;
             }
         }
-       
     }
 }

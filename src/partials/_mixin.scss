@@ -11,6 +11,7 @@
     transition: 0.3s;
 }
 
+
 @mixin btn_logo_style {
     width: 20px;
     height: 20px;
@@ -18,7 +19,6 @@
 
     top: $space_padding - 5;
     left: $space_padding - 5;
-    
 }
 
 @mixin display_flex_just_start {
@@ -26,9 +26,25 @@
     justify-content: start;
     align-items: center;
 }
+@mixin display_flex_just_center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 @mixin display_flex_just_end {
     display: flex;
     justify-content: end;
     align-items: center;
 }
+@mixin size_img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain ; 
+}
+@mixin size_before_after {
+    width: 250px;
+    height: 250px;
+    object-fit: contain ; 
+}
+
 

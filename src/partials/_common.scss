@@ -3,12 +3,25 @@
     padding: 0;
     box-sizing: border-box;
     font-family:'Noto Sans JP', sans-serif;
+    color: $text_color;
 }
 .max_comtainer{
-    width: 920px;
+    width: 1020px;
     margin: auto;
+    header,.first_section{
+        max-width: 920px;
+        margin: auto;
+    }
 }
 
-.btn_nav{
+.btn_common{
     position: relative;
 }
+
+button{
+    padding: ($space_padding - 7px)  ($space_padding - 7)($space_padding - 7) $space_padding*3;
+    border-radius: 5px;
+    font-size: $font_size - 12;
+    outline: none;
+}
+

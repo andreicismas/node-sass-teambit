@@ -1,3 +1,81 @@
-.main_btn{
-    position: relative;
+.section_1{
+    h1{
+        font-size: $font_size + 5
+    }
+    p{
+        padding-bottom: $space_padding*4; 
+        padding-top: $space_padding ; 
+        font-size: $font_size - 10
+    }
+    @include display_flex_just_start;
+     .container_hero_img{
+         width: 460px;
+         .hero_img{
+             width: 100%;
+             object-fit: contain;
+         }
+     }
+}
+.container_logs{
+    @include btn_logo_style;
+}
+
+.btn_style{
+    display: inline-block;
+
+    :hover{
+        background-color: rgb(24, 24, 138);
+        @include transition;
+    }
+    button{
+        background-color: $persian_blue;
+        color: white;
+    }
+   
+}
+.span_style{
+    display: block;
+    padding: $space_padding 0px ; 
+}
+
+
+// seccond section
+
+
+.seccond_section,.third_section{
+
+    div{
+        h4{
+            padding: $space_padding*3;
+        }
+    }
+    text-align: center;
+   
+    background-color: $color_section;
+    .img_sec_container{
+        @include display_flex_just_center;
+        padding: $space_padding*3;
+        img{
+           @include size_img;
+        }
+    }
+    .img_before{
+        img{
+            @include size_before_after;
+            padding: $space_padding*5;
+        }
+    }
+}
+.border_style{
+    max-width: 920px;
+    margin: auto;
+    margin-top: -1px;
+    border-bottom: 1px solid $text_color;
+}
+.third_section{
+    div{
+        p{
+            font-size: $font_size - 15;
+        }
+    }
 }
