@@ -1,11 +1,11 @@
 .section_1{
     h1{
-        font-size: $font_size + 5
+        font-size: ($font_size + 5)
     }
     p{
-        padding-bottom: $space_padding*4; 
+        padding-bottom: ($space_padding*4); 
         padding-top: $space_padding ; 
-        font-size: $font_size - 10
+        font-size: ($font_size - 10)
     }
     @include display_flex_just_start;
      .container_hero_img{
@@ -39,7 +39,7 @@
 }
 
 
-// seccond section
+// seccond section e third_section
 
 
 .seccond_section,.third_section{
@@ -79,3 +79,35 @@
         }
     }
 }
+
+// fourth_section
+
+.fourth_section{
+    @include display_flex_just_start;
+    .style_general_img{
+        img{
+            width: 500px;
+            height: 350px;
+            object-fit: contain;
+        }
+    }
+    .style_general_img_2{
+        width: 350px;
+        h4{
+            padding: $space_padding *2 0px;
+        }
+        p{
+            
+            font-size: $font_size - 9;
+        }
+        img{
+            width: 220px;
+            height: 220px;
+            object-fit: contain;
+
+        }
+        
+    }
+}
+
+// @include display_flex_just_start

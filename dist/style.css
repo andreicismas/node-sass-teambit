@@ -163,3 +163,30 @@ nav .btn_common button a {
 .third_section div p {
   font-size: 9px;
 }
+
+.fourth_section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.fourth_section .style_general_img img {
+  width: 500px;
+  height: 350px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.fourth_section .style_general_img_2 {
+  width: 350px;
+}
+.fourth_section .style_general_img_2 h4 {
+  padding: 20px 0px;
+}
+.fourth_section .style_general_img_2 p {
+  font-size: 15px;
+}
+.fourth_section .style_general_img_2 img {
+  width: 220px;
+  height: 220px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
